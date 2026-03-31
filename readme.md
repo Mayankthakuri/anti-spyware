@@ -353,3 +353,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - **Documentation:** README.md
 - **Logs:** `./logs/forensic.log`
 - **Status:** `./integration.sh status`
+
+---
+**Legacy Note:**
+This project was originally started as a simple antispyware tool for macOS with AI-powered detection using TensorFlow. See the repository history for earlier documentation and features.

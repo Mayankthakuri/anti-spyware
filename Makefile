@@ -1,6 +1,9 @@
-# Enhanced Antispyware Makefile with Quarantine and Patching Support
+# Unified Makefile: combines enhanced features and TensorFlow options
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -O2
+# Uncomment the following lines to enable TensorFlow AI features
+# CXXFLAGS += -DUSE_TENSORFLOW
+# LDFLAGS = -ltensorflow
 SRCDIR = agent
 BINDIR = agent
 
@@ -37,7 +40,7 @@ $(COLLECTOR_BIN): $(COLLECTOR_SRC)
 
 $(DETECTOR_BIN): $(DETECTOR_SRC)
 	@echo "Building detector..."
-	@$(CXX) $(CXXFLAGS) -o $@ $< 2>/dev/null || echo "Detector build completed with warnings"
+	@$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $< 2>/dev/null || echo "Detector build completed with warnings"
 
 $(EXPORTER_BIN): $(EXPORTER_SRC)
 	@echo "Building exporter..."
