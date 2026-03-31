@@ -1,0 +1,7 @@
+Starting project at /Users/mayankchand/Public/Antispyware/mobile-app
+› Port 3001 is running this app in another window
+  /Users/mayankchand/Public/Antispyware/mobile-app (pid 43549)
+Input is required, but 'npx expo' is in non-interactive mode.
+Required input:
+> Use port 3002 instead?
+› Skipping dev server

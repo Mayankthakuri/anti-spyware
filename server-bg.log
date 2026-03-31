@@ -1,0 +1,21 @@
+File watcher setup complete
+🛡️  AntiSpyware Real-Time Server started on port 3001
+🌐 WebSocket URL: ws://localhost:3001
+📊 Ready for client connections...
+WebSocket Server error: Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at new WebSocketServer (/Users/mayankchand/Public/Antispyware/node_modules/ws/lib/websocket-server.js:106:20)
+    at new AntiSpywareRealTimeServer (/Users/mayankchand/Public/Antispyware/realtime-server.js:18:16)
+    at Object.<anonymous> (/Users/mayankchand/Public/Antispyware/realtime-server.js:583:18)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}

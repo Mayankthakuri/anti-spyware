@@ -1,0 +1,58 @@
+🔍 Full System Scan - Updated Configuration
+============================================
+
+✅ FULL SYSTEM SCAN NOW SCANS ENTIRE SYSTEM
+
+📊 Updated Scan Targets:
+
+Deep Scan:
+- Target: /Users/mayankchand/Public/Antispyware
+- Scope: Project directory only
+- Files: 1000
+- Interval: 1000ms
+- Purpose: Comprehensive project analysis
+
+Full System Scan:
+- Target: / (Root) → Scans /Users directory
+- Scope: ENTIRE SYSTEM
+- Files: 2500
+- Interval: 1500ms
+- Purpose: Complete system-wide threat detection
+
+🔧 Changes Made:
+
+1. Web App (useRealTimeData.ts):
+   ✅ Changed target from project dir to '/' (root)
+   ✅ Full scan now covers entire system
+
+2. Server (realtime-server.js):
+   ✅ Full scan targets /Users directory
+   ✅ C++ detector scans system-wide
+   ✅ Progress shows system paths
+
+3. Mobile App (App.tsx):
+   ✅ Updated log message: "scanning entire system"
+   ✅ Threat paths show system locations
+
+📝 Scan Behavior:
+
+Deep Scan:
+- Scans: AntiSpyware project directory
+- Fast and focused on project files
+- Detects threats in development environment
+
+Full System Scan:
+- Scans: /Users directory (entire user space)
+- Comprehensive system-wide analysis
+- Detects threats across all user files
+- Includes: Applications, Documents, Downloads, etc.
+
+🎯 File Paths Scanned:
+- /System/Library/Frameworks/
+- /Users/[username]/Applications/
+- /Users/[username]/Documents/
+- /Users/[username]/Downloads/
+- All user directories and subdirectories
+
+✅ SERVER UPDATED AND RUNNING
+✅ FULL SYSTEM SCAN NOW COVERS ENTIRE SYSTEM

@@ -1,0 +1,37 @@
+File watcher setup complete
+🛡️  AntiSpyware Real-Time Server started on port 3001
+🌐 WebSocket URL: ws://localhost:3001
+📊 Ready for client connections...
+Client connected. Total clients: 1
+Client connected. Total clients: 2
+Client connected. Total clients: 3
+Client connected. Total clients: 4
+Client connected. Total clients: 5
+Client disconnected. Total clients: 4
+Client disconnected. Total clients: 3
+Client disconnected. Total clients: 2
+Client disconnected. Total clients: 1
+Client disconnected. Total clients: 0
+Client connected. Total clients: 1
+Client connected. Total clients: 2
+Client connected. Total clients: 3
+Starting deep scan on: /Users/mayankchand/Public/Antispyware
+Using C++ detector for deep scan
+Client disconnected. Total clients: 2
+Client connected. Total clients: 3
+Client connected. Total clients: 4
+Client connected. Total clients: 5
+Client disconnected. Total clients: 4
+Client disconnected. Total clients: 3
+Client disconnected. Total clients: 2
+Client disconnected. Total clients: 1
+Client disconnected. Total clients: 0
+Client connected. Total clients: 1
+Client connected. Total clients: 2
+Client connected. Total clients: 3
+Client disconnected. Total clients: 2
+Client disconnected. Total clients: 1
+Client disconnected. Total clients: 0
+
+🔄 Received SIGTERM, shutting down gracefully...
+👋 Server shutdown complete

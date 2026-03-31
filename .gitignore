@@ -1,0 +1,18 @@
+# Build artifacts
+agent/collector
+agent/detector
+agent/exporter
+
+# Test artifacts
+/tmp/test_evidence.json
+
+# Logs (optional, uncomment if you want to ignore logs)
+# logs/*.log
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+node_modules

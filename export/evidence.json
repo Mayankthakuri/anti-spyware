@@ -1,0 +1,19 @@
+{
+  "suspicious_files": [
+    "/Users/mayankchand/Public/Antispyware/LICENSE",
+    "/Users/mayankchand/Public/Antispyware/agent/detector.cpp",
+    "/Users/mayankchand/Public/Antispyware/agent/exporter.cpp",
+    "/Users/mayankchand/Public/Antispyware/agent/collector",
+    "/Users/mayankchand/Public/Antispyware/agent/detector",
+    "/Users/mayankchand/Public/Antispyware/agent/collector.cpp",
+    "/Users/mayankchand/Public/Antispyware/agent/exporter",
+    "/Users/mayankchand/Public/Antispyware/readme.md",
+    "/Users/mayankchand/Public/Antispyware/logs/forensic.log",
+    "/Users/mayankchand/Public/Antispyware/daemon/com.antispyware.xml",
+    "/Users/mayankchand/Public/Antispyware/daemon/antispyware_daemon.sh",
+    "/Users/mayankchand/Public/Antispyware/daemon/uninstall.sh",
+    "/Users/mayankchand/Public/Antispyware/daemon/install.sh",
+    "/Users/mayankchand/Public/Antispyware/daemon/README.md",
+    "/Users/mayankchand/Public/Antispyware/test.sh"
+  ]
+}
